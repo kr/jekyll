@@ -35,5 +35,8 @@ module Jekyll
       end
     end
 
+    def markdown(input)
+      Maruku.new(input).to_html
+    end
   end  
 end
