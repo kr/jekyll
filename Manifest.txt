@@ -21,6 +21,7 @@ lib/jekyll/post.rb
 lib/jekyll/site.rb
 lib/jekyll/tags/highlight.rb
 lib/jekyll/tags/include.rb
+lib/jekyll/tags/markdown.rb
 test/helper.rb
 test/source/_includes/sig.markdown
 test/source/_layouts/default.html
