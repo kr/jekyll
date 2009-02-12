@@ -44,6 +44,10 @@ require 'jekyll/tags/markdown'
 require 'jekyll/tags/smartypants'
 require 'jekyll/albino'
 
+if File.exists?('_jekyll/extensions.rb')
+  require '_jekyll/extensions.rb'
+end
+
 module Jekyll
   VERSION = '0.3.0'
   
